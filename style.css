@@ -1,0 +1,28 @@
+.container-warper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 60%;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+    background: #000;
+}
+.container{
+    background-color: rgb(107, 107, 107);
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.draggable{
+    padding: 10px;
+    border: 1px solid wheat;
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.container .draging{
+    opacity: 0;
+}
